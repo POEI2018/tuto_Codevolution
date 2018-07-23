@@ -9,7 +9,7 @@ export class TestComponent implements OnInit {
 
   public name = "Nadir" ;
   public successClass = "text-success";
-  public hasError = true ;
+  public hasError = false ;
   public isSpecial = true ;
   public messageClasses = {
     "text-success": !this.hasError ,
