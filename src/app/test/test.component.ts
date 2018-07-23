@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  public name = "Nadir"
+  public name = "Nadir" ;
+  public myId = "testId" ;
+  public isDisabled = false ;
 
   constructor() { }
 
