@@ -2,8 +2,8 @@
   Welcome {{name}}
 </h2>
 
-<button (click)="onClick($event)">Greet</button>
-{{greeting}}
+<input #myInput type="text" placeholder="type your text here">
+<button (click)="logMessage(myInput)">Log</button>
 
 
 

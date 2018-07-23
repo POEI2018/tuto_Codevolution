@@ -8,16 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class TestComponent implements OnInit {
 
   public name = "Nadir" ;
-  public greeting = "" ;
+  
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  public onClick(event) {
-    console.log(event);
-    this.greeting = "Welcome to our test example"
+  public logMessage(value) {
+     console.log(value) ;
   }
+
+ 
 
 }
