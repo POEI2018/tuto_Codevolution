@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  public name = "Nadir" ;
+  public colors= ["red", "blue", "yellow", "black"] ;
   
 
   constructor() { }
@@ -15,9 +15,7 @@ export class TestComponent implements OnInit {
   ngOnInit() {
   }
 
-  public logMessage(value) {
-     console.log(value) ;
-  }
+ 
 
  
 

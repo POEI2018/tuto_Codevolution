@@ -2,8 +2,11 @@
   Welcome {{name}}
 </h2>
 
-<input #myInput type="text" placeholder="type your text here">
-<button (click)="logMessage(myInput)">Log</button>
+<div *ngFor="let color of colors; index as i">
+  <h2>{{i}} {{color}}</h2>
+
+</div>
+
 
 
 
