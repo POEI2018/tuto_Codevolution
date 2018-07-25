@@ -2,8 +2,8 @@
   Welcome {{name}}
 </h2>
 
-<input #myInput type="text" placeholder="type your text here">
-<button (click)="logMessage(myInput)">Log</button>
+<input  [(ngModel)]= "name" type="text" placeholder="type your text here"> {{name}}
+<button>Log</button>
 
 
 
